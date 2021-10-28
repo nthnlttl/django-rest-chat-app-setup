@@ -46,7 +46,9 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # local
+    'api.apps.ApiConfig',
     'frontend.apps.FrontendConfig',
+    'messages.apps.MessagesConfig',
 ]
 
 MIDDLEWARE = [
